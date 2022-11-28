@@ -7,10 +7,10 @@
 }
 
 .contain_elements{
+    align-items: flex-start;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .tilte_footer{
@@ -28,4 +28,10 @@
     line-height: 28px;
     color: #ff6e0c;
     text-decoration: none;
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
