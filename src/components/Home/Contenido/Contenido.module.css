@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Titulo;
+    src: url(../../../assets/DunkinSans-Display.woff);
+}
+
+@font-face {
+    font-family: Parrafo;
+    src: url(../../../assets/DunkinSans-Book.woff);
+}
+
+.elementor_container{
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+    width: 100%;
+}
+
+.container_left{
+    text-align: center;
+    width: 50%;
+    height: 410px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container_rigth{
+    display: flex;
+    height: 410px;
+    width: 50%;
+    justify-content: center;
+    background-color: #deb970;
+    align-items: center;
+}
+
+.container_rigth_2{
+    display: flex;
+    height: 410px;
+    width: 50%;
+    justify-content: center;
+    background-color: #F090A4;
+    align-items: center;
+}
+
+.container_rigth3{
+    display: flex;
+    height: 410px;
+    width: 50%;
+    justify-content: center;
+    background-color: #BDE9C9;
+    align-items: center;
+}
+
+.title_container{
+    height: 71px;
+}
+
+.titulo{
+    font-family: Titulo;
+    color: #412207;
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 400;
+}
+
+.Parrafo{
+    font-family: Parrafo;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: #ff6e0c;
+}
+
+.parrafo_contain{
+    margin: 0px 100px 0px 100px;
+}
+
+.button_contain{
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Boton{
+    width: 128px;
+    height: 42px;
+    background-color: #ff6e0c;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.Boton:hover{
+    background-color: #f20c90;
+    transition: all .2s linear;
+}
+
+.boton_p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #ffffff;
+    font-family: Titulo;
+}

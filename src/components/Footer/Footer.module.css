@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Import_Title_Footer;
+    src: url(../../assets/DunkinSans-Book.woff);
+}
+.footer{
+    padding: 5% 5% 3% 5%;
+}
+
+.contain_elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.tilte_footer{
+    font-family: Import_Title_Footer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #4f4f4f;
+}
+
+.Link_Footer{
+    font-family: Import_Title_Footer;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 28px;
+    color: #ff6e0c;
+    text-decoration: none;
+}

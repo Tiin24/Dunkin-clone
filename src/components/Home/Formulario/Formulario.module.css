@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Import_T;
+    src: url(../../../assets/DunkinSans-Display.woff);
+}
+
+@font-face {
+    font-family: Import_F;
+    src: url(../../../assets/DunkinSans-Book.woff);
+}
+
+.container{
+    background-color: #ff6e0c;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_form{
+    display: flex;
+    width: 76%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contain_title{
+    margin-top: 40px;
+}
+
+.Title{
+    font-family: Import_T;
+    color: white;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 43px;
+}
+
+.contain_formulario{
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario{
+    width: 88%;
+}
+
+.contain_inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 97%;
+    margin-top: 14px;
+}
+
+input{
+    width: 93%;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    padding: 6px 16px;
+    min-height: 37px;
+    font-family: Import_F;
+    font-size: 16px;
+    line-height: 22px;
+    color: #27282a;
+    font-weight: 400;
+}
+
+.label_F{
+    color: #ffffff;
+    font-weight: 400;
+    font-family: Import_F;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.contain_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.button_S{
+    display: flex;
+    width: 134px;
+    height: 46px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border: none;
+    border-radius: 9px;
+    background-color: #f20c90;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    transition: all .2s linear;
+}
+
+.button_S:hover{
+    background-color: #b10a68;
+    transition: all .2s linear;
+}
+
+
+.spanF{
+    font-family: Import_T;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 400;
+    color: white;
+}
