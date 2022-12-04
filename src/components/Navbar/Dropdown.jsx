@@ -15,12 +15,12 @@ function Dropdown() {
           {serviceDropdown.map((item) => {
             return (
               <li key={item.id}>
-                <Link>
+                <Link to='/store'>
                   <img className="image-menu" src={item.image} alt="..." />
                 </Link>
                 <h2 className="name_cat">
                   <Link
-                    to={item.path}
+                    to='/store'
                     className={item.cName}
                     onClick={() => setDropdown(true)}
                   >

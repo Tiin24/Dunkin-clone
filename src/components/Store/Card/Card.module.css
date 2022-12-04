@@ -1,0 +1,46 @@
+@font-face {
+    font-family: NameItem;
+    src: url(../../../assets/DunkinSans-Book.woff);
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 197px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 30%);
+}
+
+.contain_image{
+    width: 34%;
+    display: flex;
+    align-items: center;
+}
+
+.image_store{
+    width: 150px;
+}
+
+.contain_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.item_name{
+    font-family: NameItem;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #512d00;
+}
+
+.item_description{
+    font-family: NameItem;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #ff6e0c;
+}
